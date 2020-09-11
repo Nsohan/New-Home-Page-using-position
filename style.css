@@ -23,11 +23,13 @@
     color: rgb(255, 255, 255);
     font-size: 20px;
     padding: 10px;
+    transition: font-size;
+    transition-duration: 0.5s;
 }
 
 .item a:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 74, 19);
+    font-size: 30px;
+    color: rgb(255, 255, 191);
 }
 
 .img {
